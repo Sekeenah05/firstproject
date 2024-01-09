@@ -1,0 +1,84 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pa {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    text-align: center;
+}
+.img img {
+    position: relative;
+    left: 200px;
+    padding-bottom: 100px
+}
+li {
+    list-style: none;
+}
+.pa ul {
+    display: flex;
+    gap:25px ;
+    padding-right: 100px;
+}
+.li {
+    list-style: inside;
+    color: gray;
+}
+.page {
+    box-shadow: 0 0 5px;
+    padding-left: 150px;
+}
+h4 {
+    border-radius: 15px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.new {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+h6 {
+    font-weight: lighter;
+    color: grey;
+}
+h1 {
+    width: 75%; 
+    font-size: 70px;
+}
+h5 {
+    width: 38%;
+    color: grey;
+}
+button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 10px 15px;
+}
+.txt {
+    display: flex;
+    flex-direction: column;
+}
+.sch {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.alltxt {
+    padding-bottom: 50px;
+
+}
+body {
+    overflow-x: hidden;
+}
